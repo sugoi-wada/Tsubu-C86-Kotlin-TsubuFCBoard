@@ -4,5 +4,10 @@
     <string name="app_name">TsubuFCBoard</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="parse_app_id">[あなたのappid]</string>
+    <string name="parse_client_key">3H7[あなたのclientkey]</string>
+    <string name="name">名前を入力</string>
+    <string name="comment">コメントを入力</string>
+    <string name="post">投稿</string>
 
 </resources>

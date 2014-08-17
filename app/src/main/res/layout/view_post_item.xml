@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.iamemustan.tsubufc_board.PostItemView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="@android:color/black"
+            android:id="@+id/userName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UserName"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:textColor="@android:color/black"
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@id/userName"
+            android:gravity="right"
+            android:text="0000/00/00"/>
+
+        <TextView
+            android:textColor="@android:color/black"
+            android:id="@+id/comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/userName"
+            android:layout_below="@id/userName"
+            android:text="会話内容"/>
+    </RelativeLayout>
+
+</com.iamemustan.tsubufc_board.PostItemView>
+

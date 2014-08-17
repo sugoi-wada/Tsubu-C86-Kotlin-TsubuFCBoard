@@ -1,4 +1,4 @@
-package com.iamemustan.tsubufcboard;
+package com.iamemustan.tsubufc_board;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
